@@ -8,14 +8,14 @@ function createResult(error,data){
 
 function createSuccessResult(data){
     return {
-        status : success,
+        status : "success",
         data : data
     }
 }
 
 function createErrorResult(error){
     return {
-        status : error,
+        status : "error",
         error : error
     }
 }
